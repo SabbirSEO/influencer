@@ -1,0 +1,36 @@
+/* Shared Styles */
+.max-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.inner-container {
+    max-width: 147px;
+    margin: 0 auto;
+}
+
+/* Header Styles Start */
+
+nav.max-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nv-container{
+    display: flex;
+    justify-content:space-between;
+}
+
+.navigation{
+    display: flex;
+    gap:30px;
+}
+
+nav li {
+    list-style: none;
+
+}
+
+.navigation a {
+    text-decoration: none;
+}
